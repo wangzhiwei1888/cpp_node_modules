@@ -1,4 +1,5 @@
 const calculate = require('./build/Release/calculate')
+const calculate1 = require('./build/Release/calculate1')
 const hello = require('./build/Release/hello')
 const hello_js = require('./hello.js')
 
@@ -17,3 +18,11 @@ console.log('---------------------------------------')
 console.log('c++ addon vs js addon')
 console.log(hello.hello())
 console.log(hello_js('Jack Yeh'))
+
+
+console.log('c++ addon')
+
+
+console.log('C++ :' + calculate1.calc1(100, 100))
+
+
